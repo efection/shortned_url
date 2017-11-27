@@ -6,7 +6,7 @@ en:
     broken_url: 'We sorry, your url is broken! Try to use full link with http or https protocol'
   forms:
     form_title: 'Enter the URL'
-    email_placeholder: 'Your email'
+    email_placeholder: 'Your URL (please include http or https protocol)'
     generate_button: 'Generate URL'
   show:
     original_url: 'Your original url is:'
