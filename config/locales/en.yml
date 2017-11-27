@@ -1,0 +1,14 @@
+en:
+  notices:
+    success_create_url: 'Your short url create successfuly!'
+    url_already_generate: 'This url is already exist in database'
+  alerts:
+    broken_url: 'We sorry, your url is broken! Try to use full link with http or https protocol'
+  forms:
+    form_title: 'Enter the URL'
+    email_placeholder: 'Your email'
+    generate_button: 'Generate URL'
+  show:
+    original_url: 'Your original url is:'
+    short_url: 'Your shortner url is:'
+    create_url: 'Create Short Url'

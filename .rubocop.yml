@@ -1,0 +1,56 @@
+AllCops:
+  Exclude:
+    - 'db/migrate/*'
+    - 'db/schema.rb'
+
+Bundler/OrderedGems:
+  Exclude:
+    - 'Gemfile'
+
+Lint/ScriptPermission:
+  Exclude:
+    - 'bin/*'
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - 'db/seeds.rb'
+    - 'config/**/*'
+    - 'config/*'
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'app/**/*'
+    - 'config/*'
+
+Style/StringLiterals:
+  Exclude:
+    - 'config/puma.rb'
+    - 'bin/*'
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Metrics/AbcSize:
+  Max: 18
+
+Metrics/MethodLength:
+  Max: 12
+
+Style/ColonMethodCall:
+  Exclude:
+    - 'app/models/short_url.rb'
+
+Style/PercentLiteralDelimiters:
+  Exclude:
+    - 'config/spring.rb'
+
+Style/RedundantParentheses:
+  Exclude:
+    - 'app/models/short_url.rb'
+
+Style/RegexpLiteral:
+  Exclude:
+    - 'app/models/short_url.rb'

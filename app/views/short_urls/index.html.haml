@@ -1,0 +1,4 @@
+%h2= t('forms.form_title')
+= form_for @url do |f|
+  = f.text_field :original_url, required: true, placeholder: t('forms.email_placeholder')
+  = f.button t('forms.generate_button'), class: 'btn btn-primary'
